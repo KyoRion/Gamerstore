@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Homepage</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+	<link rel="stylesheet" type="text/css" href="Asset/css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid container-header">
+		<!-- Start social icon -->
+		<div class="col-4">
+			<ul class="social-icon">
+				<li class="social-ani"><i class="fab fa-facebook"></i></li>
+				<li class="social-ani"><i class="fab fa-instagram"></i></li>
+				<li class="social-ani"><i class="fab fa-google"></i></li>
+				<li class="social-ani"><i class="fab fa-youtube"></i></li>
+			</ul>
+		</div>
+		<!-- End social icon -->
+		<!-- Start logo -->
+		<div class="col-4" align="center">
+			<img class="logo" src="Asset/img/logo.png" alt="Logo website">
+		</div>
+		<!-- End logo -->
+		<!-- Start form user -->
+		<div class="col-4">
+			<div class="form-inline form-user">
+				<button class="btn btn-outline-light" data-toggle="modal" data-target="#login">Login</button>
+				<button class="btn btn-light">Register</button>
+			</div><br /><br />
+
+			<div class="form-cart">
+				<i class="fas fa-shopping-cart small-cart"></i><span> Your Cart:</span>
+			</div>
+		</div>
+		<!-- MODAL Login form -->
+		<div class="modal fade" id="login" role="dialog">
+			<div class="modal-dialog modal-lg">
+				
+				<!-- Modal Beach 1 - Phu Quoc Island -->
+
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4>LOGIN</h4>
+						<button type="button" class="close" data-dismiss="modal" title="Close">&times;</button>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-10">
+								<div class="form-group">
+									<input class="form-control form-login" type="text" placeholder="Username">
+								</div>
+								<div class="form-group">
+									<input class="form-control form-login" type="password" placeholder="Password">
+								</div>
+							</div>
+							<div class="col-2 p-login">
+								<button class="btn btn-outline-success w-100 h-100">LOGIN</button>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer p-create">
+						<a href="#" data-toggle="modal" data-target="#register"><p>Create new account</p></a>
+					</div>
+				</div> 
+			</div>
+		</div> 
+		<!-- END Modal Login -->
+		<!-- MODAL Register form -->
+		<div class="modal fade" id="register" role="dialog">
+			<div class="modal-dialog modal-lg">
+				
+				<!-- Modal Beach 1 - Phu Quoc Island -->
+
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4>Register</h4>
+						<button type="button" class="close" data-dismiss="modal" title="Close">&times;</button>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-10">
+								<div class="form-group">
+									<input class="form-control form-login" type="text" placeholder="Username">
+								</div>
+								<div class="form-group">
+									<input class="form-control form-login" type="password" placeholder="Password">
+								</div>
+							</div>
+							<div class="col-2 p-login">
+								<button class="btn btn-outline-success w-100 h-100">LOGIN</button>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer p-create">
+						<a href="#"><p>Create new account</p></a>
+					</div>
+				</div> 
+			</div>
+		</div> 
+		<!-- END Modal Register -->
+		<!-- End form user -->
+	</div>
+	<!-- Start main body -->
+	<div class="container container-main">
+		<!-- Start navigation -->
+		<div class="row navigation">
+			<div class="col-12">
+				<div class="navbar navbar-expand">
+					<ul class="navbar-nav justify-content-md-center">
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html"><i class="fas fa-home"></i></a>
+						</li>
+						<li class="nav-item dropdown" style="position: static;">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								GENRE
+							</a>
+							<div class="dropdown-menu w-100" aria-labelledby="navbarDropdown">
+								<div class="row">
+									<div class="col-4">
+										<a class="dropdown-item" href="#">Action</a>
+										<div class="dropdown-divider"></div>
+										<a class="dropdown-item" href="#">Another action</a>
+										<div class="dropdown-divider"></div>
+										<a class="dropdown-item" href="#">Something else here</a>
+									</div>
+									<div class="col-4">
+										<a class="dropdown-item" href="#">Action</a>
+										<div class="dropdown-divider"></div>
+										<a class="dropdown-item" href="#">Another action</a>
+										<div class="dropdown-divider"></div>
+										<a class="dropdown-item" href="#">Something else here</a>
+									</div>
+									<div class="col-4">
+										<a class="dropdown-item" href="#">Action</a>
+										<div class="dropdown-divider"></div>
+										<a class="dropdown-item" href="#">Another action</a>
+										<div class="dropdown-divider"></div>
+										<a class="dropdown-item" href="#">Something else here</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="">PC</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="">CONSOLE</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="">PREVIEW</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- End navigation -->
+		<!-- Start slide main -->
+		<div class="row">
+			<div class="col-8">
+				<div id="slide-images" class="carousel slide" data-ride="carousel">
+					<!-- Start position slider -->
+					<ul class="carousel-indicators">
+						<li data-target="#slide-images" data-slide-to="0" class="active"></li>
+						<li data-target="#slide-images" data-slide-to="1"></li>
+						<li data-target="#slide-images" data-slide-to="2"></li>
+					</ul>
+					<!-- End position slider -->
+					<!-- Start Images Slider -->
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="https://divineshop.vn/image/cache/catalog/popup/Origin-games-824x470.png" alt="">
+						</div>
+						<div class="carousel-item">
+							<img src="https://divineshop.vn/image/cache/catalog/popup/battle-net-games-824x470.png" alt="">
+						</div>
+						<div class="carousel-item">
+							<img src="https://divineshop.vn/image/cache/catalog/thẻ%20điện%20thoại/gui%20anh%20dong%20(1)-824x470.jpg" alt="">
+						</div>
+					</div>
+					<!-- End Images Slider -->
+					<!-- Start button next & prev slider -->
+					<a class="carousel-control-prev" href="#slide-images" data-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+					</a>
+					<a class="carousel-control-next" href="#slide-images" data-slide="next">
+						<span class="carousel-control-next-icon"></span>
+					</a>
+					<!-- End button next & prev slider -->
+				</div>
+			</div>
+			<!-- End slide main -->
+			<!-- Start slide sidebar -->
+			<div class="col-4">
+				<div class="images-notice-event">
+					<a href=""><img src="Asset/img/garena.png" alt=""></a>
+				</div>
+
+				<div class="images-notice-event">
+					<a href=""><img src="Asset/img/vipper.png" alt=""></a>
+				</div>
+
+				<div class="images-notice-event">
+					<a href=""><img src="Asset/img/list.png" alt=""></a>
+				</div>
+			</div>
+		</div>
+		<!-- End slide sidebar -->
+		<hr />
+		<!-- Start Criteria -->
+		<div class="criteria">
+			<!-- Card 1 -->
+			<div class="col-4">
+				<div class="card card-bg-hide" align="center">
+					<p><i class="far fa-clock"></i></p>
+					<div class="card-body">
+						<p class="card-text card-content-text">Giao hàng trong vòng 24h.</p>
+					</div>
+				</div>
+			</div>
+			<!-- END Card 1 -->
+			<!-- Card 2 -->
+			<div class="col-4">
+				<div class="card card-bg-hide" align="center">
+					<p><i class="fas fa-shopping-cart"></i></p>
+					<div class="card-body">
+						<p class="card-text card-content-text">Mua sắm thoải mái & uy tín 100%.</p>
+					</div>
+				</div>
+			</div>
+			<!-- END Card 2 -->
+			<!-- Card 3 -->
+			<div class="col-4">
+				<div class="card card-bg-hide" align="center">
+					<p><i class="fas fa-gift"></i></p>
+					<div class="card-body">
+						<p class="card-text card-content-text">Bảo hành trọn đời.</p>
+					</div>
+				</div>
+			</div>
+			<!-- END Card 3 -->
+		</div>
+		<!-- End Criteria -->
+		<hr />
+		<!-- Start Game Popular -->
+		<div id="game-slider" class="carousel slide" data-ride="carousel">
+					<!-- Start Images Slider -->
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class="row row-padding">
+								<div class="col-2 fade">
+									<div class="card game-item">
+										<img src="Asset/img/pubg-game.png" alt="PUBG">
+										<div class="card-body">
+											<h4 class="card-title game-name">PlayerUnknow's BattleGround</h4>
+										</div>
+										<div class="card-footer">
+											<p class="card-text price">200.000&#x20AB;</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-2">
+									<div class="card game-item" align="center">
+										<img src="Asset/img/pubg-game.png" alt="PUBG" width="150" height="150">
+										<div class="card-body">
+											<h4 class="card-title game-name">PUBG</h4>
+										</div>
+										<div class="card-footer">
+											<p class="card-text price">200.000&#x20AB;</p>
+											<button class="btn btn-outline-success">BUY NOW</button>
+										</div>
+									</div>
+								</div>
+								<div class="col-2">
+									<div class="card game-item" align="center">
+										<img src="Asset/img/stardewvalley.jpg" alt="" width="150" height="125">
+										<div class="card-body">
+											<h4 class="card-title game-name">Stardew</h4>
+										</div>
+										<div class="card-footer">
+											<p class="card-text price">65.000&#x20AB;</p>
+											<button class="btn btn-outline-success">BUY NOW</button>
+										</div>
+									</div>
+								</div>
+								<div class="col-2">
+									<div class="card game-item" align="center">
+										<img src="Asset/img/pubg-game.png" alt="PUBG" width="150" height="150">
+										<div class="card-body">
+											<h4 class="card-title game-name">PUBG</h4>
+										</div>
+										<div class="card-footer">
+											<p class="card-text price">200.000&#x20AB;</p>
+											<button class="btn btn-outline-success">BUY NOW</button>
+										</div>
+									</div>
+								</div>
+								<div class="col-2">
+									<div class="card game-item" align="center">
+										<img src="Asset/img/pubg-game.png" alt="PUBG" width="150" height="150">
+										<div class="card-body">
+											<h4 class="card-title game-name">PUBG</h4>
+										</div>
+										<div class="card-footer">
+											<p class="card-text price">200.000&#x20AB;</p>
+											<button class="btn btn-outline-success">BUY NOW</button>
+										</div>
+									</div>
+								</div>
+								<div class="col-2 fade">
+									<div class="card game-item" align="center">
+										<img src="Asset/img/pubg-game.png" alt="PUBG" width="150" height="150">
+										<div class="card-body">
+											<h4 class="card-title game-name">PUBG</h4>
+										</div>
+										<div class="card-footer">
+											<p class="card-text price">200.000&#x20AB;</p>
+											<button class="btn btn-outline-success">BUY NOW</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row row-padding">
+								<div class="col-2 fade">
+									<div class="card game-item" align="center">
+										<img src="Asset/img/pubg-game.png" alt="PUBG" width="150" height="150">
+										<div class="card-body">
+											<h4 class="card-title game-name">PUBG</h4>
+										</div>
+										<div class="card-footer">
+											<p class="card-text price">200.000&#x20AB;</p>
+											<button class="btn btn-outline-success">BUY NOW</button>
+										</div>
+									</div>
+								</div>
+								<div class="col-2">
+									<div class="card game-item" align="center">
+										<img src="Asset/img/pubg-game.png" alt="PUBG" width="150" height="150">
+										<div class="card-body">
+											<h4 class="card-title game-name">PUBG</h4>
+										</div>
+										<div class="card-footer">
+											<p class="card-text price">200.000&#x20AB;</p>
+											<button class="btn btn-outline-success">BUY NOW</button>
+										</div>
+									</div>
+								</div>
+								<div class="col-2">
+									<div class="card game-item" align="center">
+										<img src="Asset/img/pubg-game.png" alt="PUBG" width="150" height="150">
+										<div class="card-body">
+											<h4 class="card-title game-name">PUBG</h4>
+										</div>
+										<div class="card-footer">
+											<p class="card-text price">200.000&#x20AB;</p>
+											<button class="btn btn-outline-success">BUY NOW</button>
+										</div>
+									</div>
+								</div>
+								<div class="col-2">
+									<div class="card game-item" align="center">
+										<img src="Asset/img/pubg-game.png" alt="PUBG" width="150" height="150">
+										<div class="card-body">
+											<h4 class="card-title game-name">PUBG</h4>
+										</div>
+										<div class="card-footer">
+											<p class="card-text price">200.000&#x20AB;</p>
+											<button class="btn btn-outline-success">BUY NOW</button>
+										</div>
+									</div>
+								</div>
+								<div class="col-2">
+									<div class="card game-item" align="center">
+										<img src="Asset/img/pubg-game.png" alt="PUBG" width="150" height="150">
+										<div class="card-body">
+											<h4 class="card-title game-name">PUBG</h4>
+										</div>
+										<div class="card-footer">
+											<p class="card-text price">200.000&#x20AB;</p>
+											<button class="btn btn-outline-success">BUY NOW</button>
+										</div>
+									</div>
+								</div>
+								<div class="col-2 fade">
+									<div class="card game-item" align="center">
+										<img src="Asset/img/pubg-game.png" alt="PUBG" width="150" height="150">
+										<div class="card-body">
+											<h4 class="card-title game-name">PUBG</h4>
+										</div>
+										<div class="card-footer">
+											<p class="card-text price">200.000&#x20AB;</p>
+											<button class="btn btn-outline-success">BUY NOW</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row row-padding">
+								<div class="col-2 fade">
+									<div class="card game-item" align="center">
+										<img src="Asset/img/pubg-game.png" alt="PUBG" width="150" height="150">
+										<div class="card-body">
+											<h4 class="card-title game-name">PUBG</h4>
+										</div>
+										<div class="card-footer">
+											<p class="card-text price">200.000&#x20AB;</p>
+											<button class="btn btn-outline-success">BUY NOW</button>
+										</div>
+									</div>
+								</div>
+								<div class="col-2">
+									<div class="card game-item" align="center">
+										<img src="Asset/img/pubg-game.png" alt="PUBG" width="150" height="150">
+										<div class="card-body">
+											<h4 class="card-title game-name">PUBG</h4>
+										</div>
+										<div class="card-footer">
+											<p class="card-text price">200.000&#x20AB;</p>
+											<button class="btn btn-outline-success">BUY NOW</button>
+										</div>
+									</div>
+								</div>
+								<div class="col-2">
+									<div class="card game-item" align="center">
+										<img src="Asset/img/pubg-game.png" alt="PUBG" width="150" height="150">
+										<div class="card-body">
+											<h4 class="card-title game-name">PUBG</h4>
+										</div>
+										<div class="card-footer">
+											<p class="card-text price">200.000&#x20AB;</p>
+											<button class="btn btn-outline-success">BUY NOW</button>
+										</div>
+									</div>
+								</div>
+								<div class="col-2">
+									<div class="card game-item" align="center">
+										<img src="Asset/img/pubg-game.png" alt="PUBG" width="150" height="150">
+										<div class="card-body">
+											<h4 class="card-title game-name">PUBG</h4>
+										</div>
+										<div class="card-footer">
+											<p class="card-text price">200.000&#x20AB;</p>
+											<button class="btn btn-outline-success">BUY NOW</button>
+										</div>
+									</div>
+								</div>
+								<div class="col-2">
+									<div class="card game-item" align="center">
+										<img src="Asset/img/pubg-game.png" alt="PUBG" width="150" height="150">
+										<div class="card-body">
+											<h4 class="card-title game-name">PUBG</h4>
+										</div>
+										<div class="card-footer">
+											<p class="card-text price">200.000&#x20AB;</p>
+											<button class="btn btn-outline-success">BUY NOW</button>
+										</div>
+									</div>
+								</div>
+								<div class="col-2 fade">
+									<div class="card game-item" align="center">
+										<img src="Asset/img/pubg-game.png" alt="PUBG" width="150" height="150">
+										<div class="card-body">
+											<h4 class="card-title game-name">PUBG</h4>
+										</div>
+										<div class="card-footer">
+											<p class="card-text price">200.000&#x20AB;</p>
+											<button class="btn btn-outline-success">BUY NOW</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End Images Slider -->
+					<!-- Start button next & prev slider -->
+					<a class="carousel-control-prev btn-prev" href="#game-slider" data-slide="prev">
+						<p class="carousel-control-prev-icon"></p>
+					</a>
+					<a class="carousel-control-next btn-next" href="#game-slider" data-slide="next">
+						<p class="carousel-control-next-icon"></p>
+					</a>
+					<!-- End button next & prev slider -->
+		</div>
+		<!-- End Game Popular -->
+		<!-- FAQ -->
+		<div class="col-12 faq">
+			<!-- Button FAQ 1 -->
+					<a class="form-control-lg" data-toggle="collapse" href="#faq1" aria-expanded="false" aria-controls="collapseExample">
+						<button class="btn w-100 question-faq">
+								Why need buy at Gamerstore.vn?
+						</button>
+					</a>
+					<div class="collapse" id="faq1">
+						<h4>
+							Answer
+						</h4>
+						<p class="content" align="justify">
+							Because you will became a smart guys haha xD.
+						</p>
+					</div><br/>
+			<!-- END Button FAQ 1 -->
+			<!-- Button FAQ 2 -->
+					<a class="form-control-lg" data-toggle="collapse" href="#faq2" aria-expanded="false" aria-controls="collapseExample">
+						<button class="btn w-100 question-faq">
+								How transaction at Gamerstore.vn?
+						</button>
+					</a>
+					<div class="collapse" id="faq2">
+						<h4>
+							Answer
+						</h4>
+						<p class="content" align="justify">
+							Step 1: You need ready account paypal.
+							Step 2: Select your product.
+							Step 3: Submit pay to load payment page.
+							Step 4: Fill in your information and confirm.
+							Step 5: Finish transaction check your email to receive product if it's "Key game" waiting few day if it's items.
+						</p>
+					</div><br/>
+			<!-- END Button FAQ 2 -->
+			<!-- Button FAQ 3 -->
+					<a class="form-control-lg" data-toggle="collapse" href="#faq3" aria-expanded="false" aria-controls="collapseExample">
+						<button class="btn w-100 question-faq">
+								FAQ 3
+						</button>
+					</a>
+					<div class="collapse" id="faq3">
+						<h4>
+							Title 1
+						</h4>
+						<p class="content" align="justify">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero eius qui veniam error amet! Dolore consectetur excepturi quod voluptas vel. Sint minima quas, iure cumque inventore mollitia dolores autem beatae alias voluptate in quasi amet eos, nobis laboriosam molestiae voluptatibus nihil aspernatur non, laudantium facilis hic. Maxime voluptatibus incidunt, sapiente!
+						</p>
+					</div><br/>
+			<!-- END Button FAQ 3 -->
+			<!-- Button FAQ 4 -->
+					<a class="form-control-lg" data-toggle="collapse" href="#faq4" aria-expanded="false" aria-controls="collapseExample">
+						<button class="btn w-100 question-faq">
+								FAQ 4
+						</button>
+					</a>
+					<div class="collapse" id="faq4">
+						<h4>
+							Title 1
+						</h4>
+						<p class="content" align="justify">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero eius qui veniam error amet! Dolore consectetur excepturi quod voluptas vel. Sint minima quas, iure cumque inventore mollitia dolores autem beatae alias voluptate in quasi amet eos, nobis laboriosam molestiae voluptatibus nihil aspernatur non, laudantium facilis hic. Maxime voluptatibus incidunt, sapiente!
+						</p>
+					</div><br/>
+			<!-- END Button FAQ 4 -->
+			<!-- Button FAQ 5 -->
+					<a class="form-control-lg" data-toggle="collapse" href="#faq5" aria-expanded="false" aria-controls="collapseExample">
+						<button class="btn w-100 question-faq">
+								FAQ 5
+						</button>
+					</a>
+					<div class="collapse" id="faq5">
+						<h4>
+							Title 1
+						</h4>
+						<p class="content" align="justify">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero eius qui veniam error amet! Dolore consectetur excepturi quod voluptas vel. Sint minima quas, iure cumque inventore mollitia dolores autem beatae alias voluptate in quasi amet eos, nobis laboriosam molestiae voluptatibus nihil aspernatur non, laudantium facilis hic. Maxime voluptatibus incidunt, sapiente!
+						</p>
+					</div><br/>
+			<!-- END Button FAQ 5 -->
+		</div>
+		<!-- END FAQ -->
+	</div>
+	<!-- End main body -->
+	</div>
+	<!-- Footer -->
+	<div class="container-fluid footer">
+		<div class="row">
+			<div class="col-4" align="center">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.5833618815855!2d106.64823331513917!3d10.766558262319029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752e94f0369069%3A0x77e791123e46b851!2zNDEvMjQgxJDhu5lpIEN1bmcsIFBoxrDhu51uZyAxMSwgUXXhuq1uIDExLCBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1545820982217" width="600" height="360" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+			<div class="col-8" align="center">
+				<div class="row">
+					<div class="col-4">
+						<div class="form-group">
+							<input class="form-control bg-dark" type="text" placeholder="Email">
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="form-group">
+							<input class="form-control bg-dark" type="text" placeholder="Phone number">
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="form-group">
+							<input class="form-control bg-dark" type="text" placeholder="Title">
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<textarea class="form-control resize-none bg-dark" name="content-email" id="textbox-email" cols="220" rows="10" placeholder="Type here..."></textarea>
+				</div>
+				<div class="btn-submit-sendmail">
+					<button class="btn btn-outline-light">Submit</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="copyright">
+			<h6>&copy; Kyorion - Foureyes Coporation</h6>
+		</div>
+	<!-- END Footer -->
+</body>
+</html>
